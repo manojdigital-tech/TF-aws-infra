@@ -1,0 +1,14 @@
+            - name: Run command on remote EC2 instance via SSH
+  # You may pin to the exact commit or the version.
+  # uses: leonowski/ec2-ssh-ghactions@ee56eb08a814aa36f261c05c5dea415b4ae9ae75
+  uses: leonowski/ec2-ssh-ghactions@v1
+  with:
+    # Username to connect to the remote EC2 instance
+    username: 
+    # The command to run on the remote EC2 instance
+    command: 
+    # The EC2 instance ID
+    ec2_instance_id: 
+    # The AWS region
+    region: # default is us-west-2
+          
